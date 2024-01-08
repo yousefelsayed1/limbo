@@ -12,6 +12,7 @@ header {
     background-image: url(../images/526903.jpg);
     background-position: center center;
     background-size: cover;
+    height: 100vh;
 }
 
 header .layer {
