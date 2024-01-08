@@ -1,0 +1,101 @@
+.font-limbo {
+    font-family: Oswald, sans-serif;
+}
+
+nav .navbar-brand {
+    color: #ff305b;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../images/526903.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header .layer h1 {
+    font-weight: bolder;
+    font-size: 70px;
+    color: #ff305b;
+}
+
+#about {
+    background-image: radial-gradient(circle at 1px 1px, #adabab 1px, transparent 0);
+    background-size: 50px 30px;
+}
+
+.title h2 {
+    font-weight: 800;
+    font-size: 80px;
+    color: #f1f1f1;
+}
+
+.title h3 {
+    font-weight: 800;
+    font-size: 50px;
+    color: black;
+}
+
+#about .about-content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#about .about-img img {
+    width: 80%;
+}
+
+#profile i {
+    font-size: 40px;
+}
+
+#profile .ml-auto li {
+    margin: 0 5px;
+}
+
+#testimonial .carousel-item img {
+    width: 80px;
+    border: solid 2px #f1f1f1;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+#testimonial .client-feedback {
+    border: solid 2px #f1f1f1;
+}
+
+#testimonial .carousel .carousel-indicators img {
+    display: flex;
+    justify-content: center;
+    border-radius: 40%;
+}
+
+footer .footer-item img {
+    width: 80px;
+    margin-right: 4px;
+}
+
+footer .footer-item a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+    header {
+        background-image: url(../images/526903.jpg);
+        background-position: center center;
+        height: 60vh;
+    }
+    header .layer h1 {
+        font-weight: bolder;
+        font-size: 50px;
+        color: #ff305b;
+    }
+}
