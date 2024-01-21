@@ -100,3 +100,15 @@ footer .footer-item a {
         color: #ff305b;
     }
 }
+
+@media screen and (max-width:500px) {
+    .title h2 {
+        font-size: 50px;
+    }
+    .title h3 {
+        font-size: 35px;
+    }
+    header .layer h1 {
+        font-size: 40px;
+    }
+}
