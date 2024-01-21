@@ -88,20 +88,10 @@ footer .footer-item a {
     color: white;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:500px) {
     header {
-        background-image: url(../images/526903.jpg);
-        background-position: center center;
         height: 40vh;
     }
-    header .layer h1 {
-        font-weight: bolder;
-        font-size: 50px;
-        color: #ff305b;
-    }
-}
-
-@media screen and (max-width:500px) {
     .title h2 {
         font-size: 50px;
     }
