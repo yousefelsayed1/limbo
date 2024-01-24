@@ -33,6 +33,11 @@ header .layer h1 {
     color: #ff305b;
 }
 
+header .layer p {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 #profile {
     margin: 10px 20px;
 }
@@ -126,7 +131,7 @@ footer .footer-item a {
 
 @media screen and (max-width:500px) {
     header {
-        height: 30vh;
+        height: 35vh;
     }
     .title h2 {
         font-size: 50px;
@@ -135,7 +140,10 @@ footer .footer-item a {
         font-size: 35px;
     }
     header .layer h1 {
-        font-size: 40px;
+        font-size: 28px;
+    }
+    header .layer p {
+        font-size: 18px;
     }
     #testimonial .client-feedback {
         border: solid 2px #f1f1f1;
